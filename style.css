@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+nav ul li {
+  padding: 0 30px;
+}
+
+.navbar-brand {
+  padding-left: 60px;
+}
+
+nav {
+  background-color: black;
+}
+
+/* jumbotron */
+.jumbotron-fluid {
+  background-image: url("media/jumbotron.jpg");
+  background-size: cover;
+  height: 800px;
+  padding-top: 300px;
+  color: white;
+}
+
+/* Feature */
+.feature {
+  padding: 150px 0;
+}
+
+.feature-h1 {
+  margin-left: 80px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+  width: fit-content;
+}
+
+.row {
+  padding: 40px 20px;
+}
+
+/* Contact */
+.jumbotron {
+  background-image: url("media/contact.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.contact-content {
+  padding: 100px 0;
+}
+
+/* Responsive Breakpoint */
+@media (min-width: 992px) {
+  .jumbotron {
+    margin-top: -60px;
+  }
+}
