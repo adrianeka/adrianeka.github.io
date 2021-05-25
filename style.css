@@ -52,26 +52,15 @@ nav {
 }
 
 /* form */
-.form-body {
-  background-image: url("media/jumbotron.jpg");
-}
-
 .form-login {
-  width: 40%;
-  border: 1px solid #f8f9fa;
-  margin: 20px 400px;
-  padding: 70px;
-}
-
-.btn-login {
-  margin: 20px 0;
+  padding: 200px 100px;
 }
 
 .back {
   text-decoration: none;
   position: relative;
-  left: 140px;
-  bottom: 40px;
+  bottom: 20px;
+  text-align: center;
   color: #f8f9fa;
 }
 
@@ -79,5 +68,27 @@ nav {
 @media (min-width: 992px) {
   .jumbotron {
     margin-top: -60px;
+  }
+  .form-body {
+    background-image: url("media/jumbotron.jpg");
+  }
+
+  .form-login {
+    width: 40%;
+    border: 1px solid #f8f9fa;
+    margin: 20px 400px;
+    padding: 70px;
+  }
+
+  .btn-login {
+    margin: 20px 0;
+  }
+
+  .back {
+    text-decoration: none;
+    position: relative;
+    left: 140px;
+    bottom: 40px;
+    color: #f8f9fa;
   }
 }
