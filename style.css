@@ -51,6 +51,30 @@ nav {
   padding: 100px 0;
 }
 
+/* form */
+.form-body {
+  background-image: url("media/jumbotron.jpg");
+}
+
+.form-login {
+  width: 40%;
+  border: 1px solid #f8f9fa;
+  margin: 20px 400px;
+  padding: 70px;
+}
+
+.btn-login {
+  margin: 20px 0;
+}
+
+.back {
+  text-decoration: none;
+  position: relative;
+  left: 140px;
+  bottom: 40px;
+  color: #f8f9fa;
+}
+
 /* Responsive Breakpoint */
 @media (min-width: 992px) {
   .jumbotron {
