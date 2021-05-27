@@ -69,6 +69,7 @@ nav {
   .jumbotron {
     margin-top: -60px;
   }
+  /* form login */
   .form-body {
     background-image: url("media/jumbotron.jpg");
   }
@@ -90,5 +91,13 @@ nav {
     left: 140px;
     bottom: 40px;
     color: #f8f9fa;
+  }
+
+  /* form regist */
+  .form-regist {
+    width: 40%;
+    border: 1px solid #f8f9fa;
+    margin: 20px 400px;
+    padding: 70px;
   }
 }

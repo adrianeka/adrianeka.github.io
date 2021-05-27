@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - Ebur</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="form-body">
+  <!-- register form -->
+  <form class="row g-2 bg-dark form-regist ">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left ms-1"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+    </svg>
+    <a style="text-decoration: none" href="index.html">
+      <h2 class="display-4" style="color: #f8f9fa ">Ebur</h2>
+    </a>
+    <div class="col-md-6">
+      <label for="inputFirstname" class="form-label">First name</label>
+      <input type="text" class="form-control bg-dark" id="inputFirstname" required />
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="inputLastname" class="form-label">Last name</label>
+      <input type="text" class="form-control bg-dark" id="inputLastname" required />
+    </div>
+    <div class="col-12">
+      <label for="inputUsername" class="form-label">Username</label>
+      <input type="text" class="form-control bg-dark" id="inputUsername" required />
+    </div>
+    <div class="col-12">
+      <label for="inputEmail" class="form-label">Email</label>
+      <input type="email" class="form-control bg-dark" id="inputEmail" required />
+    </div>
+    <div class="col-12">
+      <label for="inputPassowrd" class="form-label">Password</label>
+      <input type="password" class="form-control bg-dark" id="inputPassowrd" required>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input bg-dark" type="checkbox" id="gridCheck" required />
+        <label class="form-check-label" for="gridCheck"> Check me out </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
